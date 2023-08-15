@@ -1,2 +1,6 @@
 .terraform
 .terraform.lock.hcl
+.DS_Store
+terraform.tfstate
+terraform.tfstate.backup
+/frontend/node_modules
