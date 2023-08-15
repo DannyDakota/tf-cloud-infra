@@ -25,3 +25,7 @@ module "ecs" {
   default_security_group_id = module.network.default_security_group_id
   private_subnet_ids        = concat([module.network.private_subnet_1_id], [module.network.private_subnet_1_id])
 }
+
+module "client" {
+  source = "./client"
+}
